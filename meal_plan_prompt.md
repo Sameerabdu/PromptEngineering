@@ -1,66 +1,159 @@
-#my prompt
-role ="Your an dietian expert ".
-task ="Plan 7 days meal healthy prefers only vegetarian",
-context ="due to sedentary life style i am taking only carbs more "
-fewshot ="for eample plan protein , fiber  with carbs , like rice,paneer, spinach"
-respone ="give me step by step" 
+Reusable Prompt: 7-Day South Indian Vegetarian Weight-Loss Meal Plan
+# ROLE
 
-#reversePrompting
-Reusable Prompt: 7-Day Healthy South Indian Vegetarian Meal Plan
+Act as an experienced Indian vegetarian nutrition planner who specialises in balanced South Indian home-style meals and sustainable weight management.
 
-R – Role:
+Create practical, nutritious, culturally appropriate meal plans using familiar South Indian ingredients and cooking methods. Prioritise variety, affordability, seasonal availability, and meals that can realistically be prepared at home.
 
-You are an experienced registered dietitian and nutrition expert specializing in healthy South Indian vegetarian diets and sustainable weight management.
+Do not present yourself as a doctor or registered dietitian.
 
-T – Task:
+# FOR — EDITABLE PERSONAL DETAILS
 
-Create a healthy, balanced 7-day South Indian vegetarian meal plan for someone working towards gradual weight loss. Include breakfast, mid-morning snack, lunch, evening snack, and dinner for all seven days.
+Change the details in this section for each new person. Keep the remaining prompt unchanged.
 
-C – Context:
+Age: 28 years
+Gender: Female
+Location: Coimbatore, Tamil Nadu, India
+Goal: Gradual, sustainable weight loss
+Activity level: Moderately active
+Dietary preference: Vegetarian
+Dairy consumption: Allowed
+Eggs: Not allowed
+Allergies: None
+Food dislikes: Bitter gourd, raw onion
+Preferred cuisine: Tamil and South Indian home-style food
+Weekday cooking time: 30 minutes maximum
+Weekend cooking time: Up to 60 minutes
+Budget: Moderate
+Number of people eating: 1
+Seasonal preference: Use locally available seasonal vegetables and fruits.
 
-I follow a vegetarian diet.
-I have a sedentary lifestyle due to limited physical activity.
-My current diet contains more carbohydrates, especially rice-based foods.
-I want to balance my meals by including adequate protein, fibre, vegetables, and healthy fats along with carbohydrates.
-Prefer traditional South Indian ingredients and dishes commonly available in Tamil Nadu.
-Prioritize seasonal and locally available vegetables and fruits.
-Avoid expensive or less traditional ingredients such as quinoa, avocado, and imported health foods.
-Keep weekday cooking time within 30 minutes.
-Make the plan practical for someone who may share meals with family members.
-Consider portion sizes and sustainable eating habits rather than extreme calorie restriction.
+If an important personal detail is missing, ask a clarification question rather than making an unsafe assumption.
 
-F – Few-shot Examples:
-
-Examples of balanced South Indian vegetarian meals:
-
-Breakfast: 2 idlis with sambar and vegetable chutney.
-Lunch: Moderate portion of rice with spinach (keerai), dal, vegetable poriyal, and curd.
-Dinner: Vegetable dosa with sambar.
-Protein options: Dal, sundal, chickpeas, green gram, paneer, curd, and other locally available vegetarian protein sources.
-Fibre options: Spinach, beans, carrots, cabbage, gourds, seasonal vegetables, and fruits.
-
-Ensure that meals combine carbohydrates with protein and fibre instead of eliminating carbohydrates completely.
-
-R – Response Format:
-
-Present the answer in the following structure:
-
-Introduction: Briefly explain the approach to balanced eating and gradual weight loss.
-7-Day Meal Plan: Create a table with these columns:
-Day
+# CONSTRAINTS
+Create a complete seven-day vegetarian South Indian meal plan.
+Include exactly four meals per day:
 Breakfast
-Mid-morning snack
 Lunch
 Evening snack
 Dinner
-Portion Guidance: Suggest practical portion sizes for rice, vegetables, protein foods, and snacks.
-Nutritional Balance: Briefly explain the protein, fibre, and carbohydrate sources in the meals.
-Preparation Tips: Provide simple meal-preparation tips to reduce weekday cooking time.
-Shopping List: Provide a consolidated weekly shopping list using locally available South Indian ingredients.
-Healthy Habits: Suggest practical lifestyle habits that support sustainable weight management.
+Use recognisable South Indian dishes, such as:
+Idli, dosa, pesarattu, upma, pongal and adai.
+Sambar, rasam, kootu, poriyal and keerai masiyal.
+Rice, millet preparations, curd rice and vegetable-based dishes.
+Sundal, buttermilk, seasonal fruits and roasted gram.
+Include a reasonable balance of:
+Protein from dal, lentils, legumes, dairy and other suitable vegetarian foods.
+Fibre from vegetables, fruits, whole grains and pulses.
+Carbohydrates from rice, millets and other traditional staples.
+Healthy fats in moderate quantities.
+Include vegetables and fruits that are seasonally available in the specified location.
+Use affordable ingredients commonly available in local Indian markets.
+Keep weekday preparation within the specified cooking-time limit.
+Suggest practical batch preparation where appropriate.
+Include different dishes throughout the week to prevent repetition and improve variety.
+Give realistic household portion sizes using cups, pieces, tablespoons or grams.
+Include a protein-containing food in each main meal.
+Prefer steamed, boiled, sautéed and lightly cooked preparations over deep-fried foods.
+Keep meals satisfying and balanced rather than excessively restricting food intake.
+Respect all listed allergies, dislikes and dietary restrictions.
+Do not assume that expensive or imported health foods are necessary.
+# PLAN
 
-Keep the plan affordable, culturally appropriate, easy to prepare, and varied across all seven days.
+Prepare meals for all seven days:
 
-Do not recommend crash diets, skipping meals, extreme calorie restriction, or eliminating rice entirely.
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
 
-Treat the meal plan as an educational draft, not personalized medical advice. Recommend consulting a qualified dietitian for an individualized nutrition plan.
+For every day, provide:
+
+Breakfast
+Lunch
+Evening snack
+Dinner
+
+Include appropriate portion sizes for every dish.
+
+Where a meal contains multiple components, mention each component separately within the dish description and give a practical combined portion.
+
+# FORMAT
+
+Present the complete meal plan in exactly one Markdown table.
+
+Use these four columns:
+
+Day	Meal	Dish	Portion
+
+Formatting rules:
+
+Use all seven days.
+Include exactly four meal entries per day.
+Keep the meal order consistent.
+Give specific dish names instead of vague descriptions.
+Specify portions using household measurements.
+Avoid empty cells and vague entries such as "one healthy meal".
+Do not combine different days into a single row.
+Do not omit snacks or dinner.
+Keep the table easy to read and copy into a spreadsheet.
+
+After the table, include these short sections:
+
+Preparation Tips
+
+Give 5 practical meal-preparation suggestions to save time during the week.
+
+Shopping List
+
+Group the required ingredients into:
+
+Grains and millets
+Pulses and legumes
+Vegetables
+Fruits
+Dairy
+Spices and other essentials
+Assumptions and Notes
+
+Mention any assumptions made and identify details that should be confirmed with a qualified dietitian.
+
+# AVOID
+
+Do not include:
+
+Meat, fish, chicken or seafood.
+Eggs.
+Quinoa, avocado or other imported foods presented as essential South Indian staples.
+Protein powders, fat-burning products or weight-loss supplements.
+Expensive specialty ingredients when ordinary local alternatives exist.
+Deep-fried snacks as everyday choices.
+Excessive coconut oil, ghee, sugar or refined flour.
+Crash diets, fasting schedules or extreme calorie restrictions.
+Unrealistically tiny portions or skipped meals.
+Unsupported claims about rapid weight loss.
+Repeated dishes throughout the week unless repetition is practical and intentional.
+
+Do not assume that eating less is automatically healthier.
+
+# FINAL QUALITY CHECK
+
+Before submitting the plan, verify that:
+
+All seven days are included.
+Each day has exactly four meals.
+Every meal has a named South Indian vegetarian dish.
+Every meal has a clearly stated portion size.
+All allergies and dislikes are respected.
+The dishes use locally accessible ingredients.
+The meals include reasonable variety and nutritional balance.
+Weekday cooking requirements are respected.
+No extreme weight-loss recommendations appear.
+The output follows the requested table format.
+
+If any requirement conflicts with the person's health needs, explain the limitation instead of guessing.
+
+Finish with a reminder that the plan is an educational draft, not an individualised medical diet. A qualified dietitian should review it before implementation.
