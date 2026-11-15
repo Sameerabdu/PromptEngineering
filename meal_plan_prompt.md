@@ -157,3 +157,9 @@ The output follows the requested table format.
 If any requirement conflicts with the person's health needs, explain the limitation instead of guessing.
 
 Finish with a reminder that the plan is an educational draft, not an individualised medical diet. A qualified dietitian should review it before implementation.
+
+
+# Improvements After First Run
+1.Added specific South Indian dish examples to prevent generic or Western-style meal suggestions.
+2.Added portion sizes, cooking-time limits, seasonal ingredients and protein requirements to make the meal plan practical and balanced.
+3.Added allergy checks, a final quality checklist and restrictions against crash diets to improve safety and consistency.
